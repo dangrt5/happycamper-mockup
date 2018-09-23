@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   width: 100vw;
   height: 100vh;
@@ -32,8 +36,7 @@ body {
 .results {
   width: 100%;
   height: 85%;
-  background-color: maroon;
-  border: 4px solid black;
+  overflow-y: scroll;
 }
 
 .card {
